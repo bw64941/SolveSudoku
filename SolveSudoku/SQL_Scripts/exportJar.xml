@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project SolveSudoku with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/Documents and Settings/bwinters.LOWES/Desktop/Sudoku.jar">
+            <manifest>
+                <attribute name="Built-By" value="${user.name}"/>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.ui.jarpackagerfat.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="com.view.Sudoku"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ junit.jar log4j.jar derby.jar"/>
+            </manifest>
+            <zipfileset src="jar-rsrc-loader.zip"/>
+            <fileset dir="C:/Documents and Settings/bwinters.LOWES/workspace/SolveSudoku/logs"/>
+            <fileset dir="C:/Documents and Settings/bwinters.LOWES/workspace/SolveSudoku/bin"/>
+            <zipfileset dir="C:\Documents and Settings\bwinters.LOWES\workspace\SolveSudoku\lib" includes="junit.jar"/>
+            <zipfileset dir="C:\Documents and Settings\bwinters.LOWES\workspace\SolveSudoku\lib" includes="log4j.jar"/>
+            <zipfileset dir="C:\Program Files\Derby" includes="derby.jar"/>
+        </jar>
+    </target>
+</project>

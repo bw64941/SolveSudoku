@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Documents and Settings/bwinters.LOWES/Desktop/Sudoku.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/SolveSudoku/jar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=SolveSudoku/src&lt;com.sudoku.gui{Sudoku.java[Sudoku" manifestLocation="/SolveSudoku/MANIFEST.MF" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="true" exportOutputFolder="true">
+        <file path="/SolveSudoku/.classpath"/>
+        <file path="/SolveSudoku/derby.log"/>
+        <folder path="/SolveSudoku/SQL_Scripts"/>
+        <folder path="/SolveSudoku/lib"/>
+        <folder path="/SolveSudoku/META-INF"/>
+        <folder path="/SolveSudoku/sudoku"/>
+        <file path="/SolveSudoku/boards.txt"/>
+        <javaElement handleIdentifier="=SolveSudoku/logs"/>
+        <file path="/SolveSudoku/.project"/>
+        <javaElement handleIdentifier="=SolveSudoku/src"/>
+    </selectedElements>
+    <fatjar builder="org.eclipse.jdt.ui.plain_jar_builder" launchConfig=""/>
+</jardesc>
